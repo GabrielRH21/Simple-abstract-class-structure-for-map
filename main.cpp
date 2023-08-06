@@ -9,28 +9,7 @@ int main() {
   Map<int, std::string>* map;
   int opt, clave;
   std::string dato;
-  /*std::string word = "hello";
-  std::string word2 = "PEPE";
-  map = new Map_List<int, std::string>;
-  for (int i = 0; i < 6; i++) {
-    map->insert(i, word);
-  }
-
-  for (int i = 0; i < 6; i++) {
-    try{
-      std::cout << map->operator[](i) << std::endl;
-    }
-    catch (map_exception& e) {
-      std::cout << e.what() << std::endl;
-    }
-  }
-  try{
-    std::cout << map->operator[](89) << std::endl;
-  }
-  catch (map_exception& e) {
-    std::cout << e.what() << std::endl;
-  }*/
-//
+  
   std::cout << "Practica del examen de junio" << std::endl;
   
   
@@ -88,6 +67,5 @@ int main() {
       break;
     }
   } while(opt != 3);
-//
   return 0;
 }
