@@ -7,8 +7,6 @@
 #include "map.hpp"
 #include "exceptions.hpp"
 
-//typedef std::exception map_exception;
-
 template<class Key, class T>
 class Map_Array_Binary: public Map<Key, T> {
   public:
