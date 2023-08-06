@@ -23,22 +23,3 @@ class map_exception_limit: public map_exception {
     return "¡ERROR! Límite sobrepasado.";
   }
 };
-
-// map_exception_bad_key
-// map_exception_limit
-
-
-/*
-int main() {
-  try {
-   throw MyException();
-  }
-  catch(MyException& e) {
-      cout << "MyException caught" << endl;
-      cout << e.what() << endl;
-  }
-  catch(std::exception& e) {
-      //Other errors
-  }
-}
-*/
