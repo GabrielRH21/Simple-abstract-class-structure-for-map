@@ -30,13 +30,3 @@ Nodo<T>::Nodo() {
   SecondVal = NULL;
   Next = NULL;
 }
-
-/*template<class T>
-void Nodo<T>::SetSecond(const T dato) {
-  SecondVal = dato;
-}
-
-template<class T>
-void Nodo<T>::SetNext(Nodo sig) {
-  Next
-}*/
